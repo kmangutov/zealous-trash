@@ -33,8 +33,8 @@ var mergeObjects = function(a, b, next) {
 var LexConnectService = function(type) {
 
   var a = "https://api.mon";
-  var aa = "golab.com/api/1/databases/lex";
-  var b = "connect/collections/" + type;
+  var aa = "golab.com/api/1/databases/";
+  var b = "zealous-trash/collections/" + type;
   var c = "?ap";
   var ca = "iKey="
   var caa = "iILS";
@@ -44,8 +44,8 @@ var LexConnectService = function(type) {
 
   var urlForObjectId = function(collection, id) {
     var a = "https://api.mon";
-    var aa = "golab.com/api/1/databases/lex";
-    var b = "connect/collections/" + collection;
+    var aa = "golab.com/api/1/databases/";
+    var b = "zealous-trash/collections/" + collection;
     var c = "/" + id + "?apiKey=" + key;
 
     return a + aa + b + c;
