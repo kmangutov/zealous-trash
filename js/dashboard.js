@@ -38,7 +38,7 @@ Vue.component('log-input', {
 
 	methods: {
 		clicked: function(event) {
-			logService.post("TESTTESTTEST");
+			logService.log("TESTTESTTEST");
 		}, 
 	}
 });
